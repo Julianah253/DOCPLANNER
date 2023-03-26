@@ -112,9 +112,7 @@ body
             
                 .dropdown
                 {
-                    // display: none;
                     height: 10vh;
-                    // background: blue;
                     display: flex;
                     justify-content: space-around;
                     align-items: center;
@@ -491,6 +489,58 @@ main
     }
 }
 
+.leader
+{
+    .theinputimage
+    {
+        content: "";
+        position: absolute;
+        right: 10%;
+        top: 25%;
+        background: url(/img/logo.png) no-repeat;
+        width: 456px;
+        height: 435px;
+        pointer-events: none;
+
+    }
+    // display: flex;
+    // justify-content: space-around;
+    height: 603px;
+    background-color: #aef4ea;
+    header 
+    {
+        margin-left: 200px;
+        h1
+        {
+            padding-top: 90px;
+            color: #00b39b;
+            font-size: 2.125rem;
+            font-weight: 300;
+            letter-spacing: -.3px;
+            display: block;
+            text-align: start;
+        }
+
+        p
+        {
+            color: #747474;
+            margin: 1.6em 0;
+            max-width: 415px;
+            font-size: .875em;
+            font-weight: 400;
+            text-align: start;
+            letter-spacing: -.3px;
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+        }
+
+    }
+}
+
+
 section
 {
     .h1
@@ -546,7 +596,6 @@ section
             {
             display: flex;
             column-gap: 40px;
-            // justify-content: center;
             @media (max-width: 576px)
             {
                 grid-gap: 16px;
@@ -613,6 +662,14 @@ section
                    {
                     fill: #00b39b;
                    }
+                }
+                .juli
+                {
+                    filter: grayscale(100%);
+                    &:hover
+                    {
+                        filter: grayscale(0%);
+                    } 
                 }
 
                 .jam 
@@ -818,10 +875,7 @@ article
         {
             margin: 0 auto;
             width: 320px;
-            // &:hover
-            // {
-            //     box-shadow: 0px 8px 30px #000;
-            // }
+           
             .office__desc
             {
                 display: block;
@@ -832,12 +886,7 @@ article
                 color: #747474;
                 width: 310px;
                 align-content: center;
-                // margin-right: 300px;
-                // margin-top: -10px;
-                // &:hover
-                // {
-                //     box-shadow: 0px 8px 30px;
-                // }
+                
                 
 
                 .btn
@@ -902,10 +951,7 @@ article
         {
             margin-right: 20px;
             width: 320px;
-            // &:hover
-            // {
-            //     box-shadow: 0px 8px 30px #000;
-            // }
+           
             .office__desc
             {
                 display: block;
@@ -916,14 +962,8 @@ article
                 color: #747474;
                 width: 310px;
                 align-content: center;
-                // margin-right: 300px;
                 margin-top: -40px;
-                // &:hover
-                // {
-                //     box-shadow: 0px 8px 30px;
-                // }
-                
-
+        
                 .btn
                 {
                     float: right;
@@ -966,10 +1006,7 @@ article
         {
             margin-right: 20px;
             width: 320px;
-            // &:hover
-            // {
-            //     box-shadow: 0px 8px 30px #000;
-            // }
+          
             .office__desc
             {
                 display: block;
@@ -981,12 +1018,6 @@ article
                 width: 310px;
                 align-content: center;
                 margin-top: -40px;
-                // margin-right: 300px;
-                // margin-top: -10px;
-                // &:hover
-                // {
-                //     box-shadow: 0px 8px 30px;
-                // }
                 
 
                 .btn
@@ -1030,10 +1061,7 @@ article
         {
             margin-right: 20px;
             width: 320px;
-            // &:hover
-            // {
-            //     box-shadow: 0px 8px 30px #000;
-            // }
+         
             .office__desc
             {
                 display: block;
@@ -1044,12 +1072,8 @@ article
                 color: #747474;
                 width: 310px;
                 align-content: center;
-                // margin-right: 300px;
                 margin-top: -40px;
-                // &:hover
-                // {
-                //     box-shadow: 0px 8px 30px;
-                // }
+              
                 
 
                 .btn
@@ -1116,10 +1140,7 @@ article
         {
             margin-right: 20px;
             width: 320px;
-            // &:hover
-            // {
-            //     box-shadow: 0px 8px 30px #000;
-            // }
+          
             .office__desc
             {
                 display: block;
@@ -1130,12 +1151,8 @@ article
                 color: #747474;
                 width: 310px;
                 align-content: center;
-                // margin-right: 300px;
                 margin-top: -40px;
-                // &:hover
-                // {
-                //     box-shadow: 0px 8px 30px;
-                // }
+                
                 
 
                 .btn
@@ -1179,10 +1196,7 @@ article
         {
             margin-right: 20px;
             width: 320px;
-            // &:hover
-            // {
-            //     box-shadow: 0px 8px 30px #000;
-            // }
+        
             .office__desc
             {
                 display: block;
@@ -1193,12 +1207,8 @@ article
                 color: #747474;
                 width: 310px;
                 align-content: center;
-                // margin-right: 300px;
                 margin-top: -40px;
-                // &:hover
-                // {
-                //     box-shadow: 0px 8px 30px;
-                // }
+              
                 
 
                 .btn
@@ -1242,10 +1252,7 @@ article
         {
             margin-right: 20px;
             width: 320px;
-            // &:hover
-            // {
-            //     box-shadow: 0px 8px 30px #000;
-            // }
+          
             .office__desc
             {
                 display: block;
@@ -1256,12 +1263,8 @@ article
                 color: #747474;
                 width: 310px;
                 align-content: center;
-                // margin-right: 300px;
                 margin-top: -40px;
-                // &:hover
-                // {
-                //     box-shadow: 0px 8px 30px;
-                // }
+               
                 
 
                 .btn
@@ -1406,3 +1409,4 @@ article
         }
     }
 }
+

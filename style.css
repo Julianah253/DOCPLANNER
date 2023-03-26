@@ -348,6 +348,51 @@ main .card .clinic .style-select .domain-switchers .options {
   color: black;
 }
 
+.leader {
+  height: 603px;
+  background-color: #aef4ea;
+}
+.leader .theinputimage {
+  content: "";
+  position: absolute;
+  right: 10%;
+  top: 25%;
+  background: url(/img/logo.png) no-repeat;
+  width: 456px;
+  height: 435px;
+  pointer-events: none;
+}
+.leader header {
+  margin-left: 200px;
+}
+.leader header h1 {
+  padding-top: 90px;
+  color: #00b39b;
+  font-size: 2.125rem;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+  display: block;
+  text-align: start;
+}
+.leader header p {
+  color: #747474;
+  margin: 1.6em 0;
+  max-width: 415px;
+  font-size: 0.875em;
+  font-weight: 400;
+  text-align: start;
+  letter-spacing: -0.3px;
+  display: block;
+  -webkit-margin-before: 1em;
+          margin-block-start: 1em;
+  -webkit-margin-after: 1em;
+          margin-block-end: 1em;
+  -webkit-margin-start: 0px;
+          margin-inline-start: 0px;
+  -webkit-margin-end: 0px;
+          margin-inline-end: 0px;
+}
+
 section .h1 {
   display: flex;
   -moz-column-gap: 110px;
@@ -446,6 +491,12 @@ section .h1 .name #row2 .znam {
 }
 section .h1 .name #row2 .znam:hover {
   fill: #00b39b;
+}
+section .h1 .name #row2 .juli {
+  filter: grayscale(100%);
+}
+section .h1 .name #row2 .juli:hover {
+  filter: grayscale(0%);
 }
 section .h1 .name #row2 .jam {
   fill: #747474;
