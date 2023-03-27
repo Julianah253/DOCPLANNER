@@ -248,6 +248,7 @@ main .card .patient .patient_link .patients {
 }
 main .card .patient .patient_link .patients .option {
   color: black;
+  background-color: gree;
 }
 main .card .doctor {
   width: 270px;
